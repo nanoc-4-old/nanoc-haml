@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    nanoc-haml (1.0.0)
+      haml
+      nanoc-core
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    haml (4.0.3)
+      tilt
+    minitest (5.0.6)
+    nanoc-core (4.0.0a1)
+    rake (10.1.0)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  nanoc-haml!
+  rake
